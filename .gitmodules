@@ -91,20 +91,6 @@
 	branch = master
 	status = essential
 	priority = 50
-[submodule "qtlocation"]
-	depends = qtbase
-	recommends = qtdeclarative qtquickcontrols qtserialport qtsystems
-	path = qtlocation
-	url = https://github.com/qtproject/qtlocation.git
-	branch = 5.6.2
-	status = addon
-[submodule "qtsensors"]
-	depends = qtbase
-	recommends = qtdeclarative
-	path = qtsensors
-	url = https://github.com/qtproject/qtsensors.git
-	branch = 5.6.2
-	status = addon
 [submodule "qtsystems"]
 	depends = qtbase
 	recommends = qtdeclarative
@@ -125,12 +111,6 @@
 	url = https://github.com/qtproject/qtdocgallery.git
 	branch = master
 	status = ignore
-[submodule "qtpim"]
-	depends = qtdeclarative
-	path = qtpim
-	url = https://github.com/qtproject/qtpim.git
-	branch = dev
-	status = ignore
 [submodule "qtconnectivity"]
 	depends = qtbase
 	recommends = qtdeclarative qtandroidextras
@@ -138,32 +118,12 @@
 	url = https://github.com/qtproject/qtconnectivity.git
 	branch = 5.6.2
 	status = addon
-[submodule "qtwayland"]
-	depends = qtbase
-	recommends = qtdeclarative
-	path = qtwayland
-	url = https://github.com/qtproject/qtwayland.git
-	branch = 5.6.2
-	status = addon
-[submodule "qt3d"]
-	depends = qtdeclarative qtimageformats
-	path = qt3d
-	url = https://github.com/qtproject/qt3d.git
-	branch = 5.6.2
-	status = preview
 [submodule "qtimageformats"]
 	depends = qtbase
 	path = qtimageformats
 	url = https://github.com/qtproject/qtimageformats.git
 	branch = 5.6.2
 	status = addon
-[submodule "qtquick1"]
-	depends = qtscript
-	recommends = qtsvg qtxmlpatterns
-	path = qtquick1
-	url = https://github.com/qtproject/qtquick1.git
-	branch = 5.6.2
-	status = obsolete
 [submodule "qtgraphicaleffects"]
 	depends = qtdeclarative
 	path = qtgraphicaleffects
@@ -177,18 +137,6 @@
 	url = https://github.com/qtproject/qtquickcontrols.git
 	branch = 5.6.2
 	status = essential
-[submodule "qtserialbus"]
-	depends = qtserialport
-	path = qtserialbus
-	url = https://github.com/qtproject/qtserialbus.git
-	branch = 5.6.2
-	status = preview
-[submodule "qtserialport"]
-	depends = qtbase
-	path = qtserialport
-	url = https://github.com/qtproject/qtserialport.git
-	branch = 5.6.2
-	status = addon
 [submodule "qtx11extras"]
 	depends = qtbase
 	path = qtx11extras
@@ -214,57 +162,9 @@
 	url = https://github.com/qtproject/qtandroidextras.git
 	branch = 5.6.2
 	status = addon
-[submodule "qtenginio"]
-	depends = qtdeclarative
-	path = qtenginio
-	url = https://github.com/qtproject/qtenginio.git
-	branch = 5.6.2
-	status = deprecated
-[submodule "qtwebsockets"]
-	depends = qtbase
-	recommends = qtdeclarative
-	path = qtwebsockets
-	url = https://github.com/qtproject/qtwebsockets.git
-	branch = 5.6.2
-	status = addon
-[submodule "qtwebchannel"]
-	depends = qtbase
-	recommends = qtdeclarative qtwebsockets
-	path = qtwebchannel
-	url = https://github.com/qtproject/qtwebchannel.git
-	branch = 5.6.2
-	status = addon
-[submodule "qtwebengine"]
-	depends = qtquickcontrols qtwebchannel
-	recommends = qtlocation
-	path = qtwebengine
-	url = https://github.com/qtproject/qtwebengine.git
-	branch = 5.6.2
-	status = addon
-	priority = 10
-[submodule "qtcanvas3d"]
-	depends = qtdeclarative
-	path = qtcanvas3d
-	url = https://github.com/qtproject/qtcanvas3d.git
-	branch = 5.6.2
-	status = addon
-[submodule "qtwebview"]
-	depends = qtdeclarative
-	recommends = qtwebengine
-	path = qtwebview
-	url = https://github.com/qtproject/qtwebview.git
-	branch = 5.6.2
-	status = addon
 [submodule "qtquickcontrols2"]
 	depends = qtquickcontrols
 	path = qtquickcontrols2
 	url = https://github.com/qtproject/qtquickcontrols2.git
 	branch = 5.6.2
 	status = preview
-[submodule "qtpurchasing"]
-	depends = qtbase
-	recommends = qtdeclarative
-	path = qtpurchasing
-	url = https://github.com/qtproject/qtpurchasing.git
-	branch = dev
-	status = ignore
