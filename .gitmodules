@@ -71,7 +71,7 @@
 	qt = false
 [submodule "qtwebkit"]
 	depends = qtbase
-	recommends = qtdeclarative qtlocation qtmultimedia qtsensors qtwebchannel qtxmlpatterns
+	recommends = qtdeclarative qtxmlpatterns
 	path = qtwebkit
 	url = https://github.com/qtproject/qtwebkit.git
 	branch = 5.6.2
